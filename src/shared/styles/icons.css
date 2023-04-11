@@ -1,0 +1,36 @@
+.icons{
+    width: 40px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1rem;
+    box-shadow: 0 0 2px 2px rgba(110, 110, 110, 0.116);
+    padding: .5rem 0;
+
+    position: fixed;
+    top: 45%;
+    right: 5px;
+    z-index: var(--zposition-second);
+}
+
+.icons i{
+    font-size: 2rem;
+}
+
+.icons hr{
+    width: 100%;
+    border-color: rgba(0, 0, 0, 0.178);
+}
+
+.icons a:nth-child(1) i{
+    color: #144272;
+}
+
+.icons a:nth-child(3) i{
+    color: #205295;
+}
+
+.icons a:nth-child(5) i{
+    color: #2C74B3;
+}

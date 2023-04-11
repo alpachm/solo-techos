@@ -11,6 +11,8 @@ import Gallery from '../components/Home/Gallery';
 import Footer from '../shared/Footer';
 import GoogleMaps from '../components/Home/GoogleMaps';
 import Copyright from '../shared/Copyright';
+import Icons from '../shared/Icons';
+import TopArrow from '../shared/TopArrow';
 
 const HomePage = () => {
   return (
@@ -27,6 +29,8 @@ const HomePage = () => {
       <Contact />
       <Footer />
       <Copyright />
+      <TopArrow />
+      <Icons />
     </div>
   );
 };

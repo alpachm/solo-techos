@@ -33,6 +33,10 @@
     --zposition-fourth: 4000;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 img{
     display: block;
     width: 100%;
