@@ -1,0 +1,89 @@
+footer{
+    padding: 2rem 0;
+    background: var(--bg-footer);
+}
+
+.container-footer {
+    display: grid;
+    gap:5rem
+}
+
+.container-footer .box{
+    display: flex;
+    flex-flow: column wrap;
+    gap:1rem;
+}
+
+.container-footer .box ul{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    gap:1rem;
+}
+
+.container-footer h3{
+    text-transform: uppercase;
+    font-weight: 800;
+    color:rgb(180, 180, 180);
+
+    padding-left: .8rem;
+    border-left: 4px solid var(--red-color);
+}
+
+.container-footer p{
+    color:rgb(88, 88, 88);
+}
+
+.container-footer .box li{
+    list-style: none;
+}
+
+.container-footer .box a{
+    text-decoration: none;
+    color:rgb(88, 88, 88);
+}
+
+.container-footer .box .icons-contact{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    gap:2rem;
+}
+
+.container-footer .box .icons-contact .box{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.container-footer .box .icons-contact .box footer{
+    padding: 0;
+}
+
+.container-footer .box .icons-contact .box i{
+    font-size: 2rem;
+    color:rgb(75, 75, 75);
+}
+
+.container-footer .box .redes-sociales{
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.container-footer .box .redes-sociales i:hover{
+    color:var(--red-color);
+}
+
+.span-bold{
+    color:rgb(180, 180, 180);
+    font-weight: 800;
+}
+
+@media(min-width: 780px){
+    .container-footer {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .container-footer .box h3{
+        height: 25px;
+    }
+}

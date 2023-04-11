@@ -1,0 +1,152 @@
+header{
+    border-bottom: 1px solid var(--border-header);
+    width: 100%;
+    background: white;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: var(--zposition-second);
+
+    transform: translateX(0);
+    transition: transform 300ms;
+}
+
+.isNav{
+    transform: translateX(-70%); 
+}
+
+.header-container{  
+    width: 90%; 
+    max-width: 1200px;
+    margin: auto; 
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-container .logo{
+    display: flex;
+    align-items: center;
+    gap:.4rem;
+}
+
+.header-container .logo img{
+    width: 70px;
+}
+
+.header-container .logo p{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.header-container .logo span{
+    font-weight: 800;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    color:black;
+}
+
+.header-container .logo span:nth-child(2){
+    color:rgb(224, 0, 0);
+}
+
+.header-container > i{
+    font-size: 2.5rem;
+}
+
+.header-container nav{
+    position: fixed;
+    top: 0;
+    right: -70%;
+    z-index: var(--zposition-third);
+
+    width: 70%;
+    height: 100vh;
+    background-color: var(--bg-nav);
+
+    transition: right 300ms;
+}
+
+.header-container  .show-nav{
+    right: 0;
+}
+
+.header-container nav i{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 2.5rem;
+    color: var(--color-textNav)
+}
+
+.header-container nav .container-nav{
+    width: 70%;
+    margin: auto;
+    height: 100%;
+
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap:2rem;
+}
+
+.header-container nav .container-nav hr{
+    width: 100%;
+    border: 1px solid var(--color-hrNav);
+}
+
+.header-container nav a{
+    text-decoration: none;
+    color: var(--color-textNav);
+    font-size: 1.3rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+@media (min-width: 780px){
+    .header-container > i{
+        display: none;
+    }
+
+    .header-container nav {
+        width: 100%;
+        height: auto;
+        background: none;
+
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+
+    
+    .header-container nav hr{
+        display: none;
+    }
+
+    .header-container nav .container-nav{
+        width: 100%;
+        flex-flow: row wrap;
+        justify-content: flex-end;
+        gap:1rem;
+    }
+
+    .header-container nav .container-nav a{
+        font-size: 1rem;
+        color:rgb(81, 81, 81);
+
+        transition: color 200ms;
+    }
+
+    .header-container nav .container-nav a:hover{
+        color:black;
+    }
+
+    .header-container nav i{
+        display: none;
+    }
+}

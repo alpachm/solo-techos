@@ -1,0 +1,16 @@
+.redes-sociales{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1rem
+}
+
+.redes-sociales i{
+    font-size: 2.5rem;
+    color:rgb(85, 85, 85);
+}
+
+.redes-sociales i:hover{
+    color:black;
+}

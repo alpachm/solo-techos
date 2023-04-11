@@ -1,0 +1,34 @@
+.stats{
+    padding: 2rem 0;
+    background-image: linear-gradient(90deg, rgba(0, 0, 255, 0.612) 0 50%, rgba(0, 0, 255, 0.612) 50% 100%), url(../../../assets/stats/bg-stats.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.container-stats{
+    display: grid;
+    gap:2rem;
+}
+
+.container-stats .box h2{
+    font-size: 2rem;
+    color:var(--white-text);
+}
+
+.container-stats .box h2 span{
+    color: var(--red-color);
+}
+
+.container-stats .box p{
+    color:var(--color-textNav);
+}
+
+@media(min-width:1200px){
+    .stats{
+        padding: 4rem 0;
+    }
+
+    .container-stats .box h2{
+        font-size: 3rem;
+    }
+}

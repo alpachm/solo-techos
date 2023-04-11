@@ -1,0 +1,51 @@
+.gallery .grilla{
+    padding: 2rem 0;
+}
+
+.slider{
+    max-height: 100vh;
+    overflow: hidden;
+}
+
+.slider-gallery{
+    display: flex;
+    width: 700%;
+    
+    transition: transform 300ms;
+}
+
+.gallery-image{
+    width: 100%;
+}
+
+.gallery .slider{
+    position: relative;
+}
+
+.botones{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: var(--zposition-first);
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.botones i{
+    font-size: 2.5rem;
+    background-color: white;
+    color:var(--blue);
+    border-radius: 50%;
+}
+
+@media(min-width:1215px){
+    .slider-gallery{
+        width: 700%;
+    }
+}

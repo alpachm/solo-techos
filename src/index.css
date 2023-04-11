@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: 'Inter', sans-serif;
+    color:var(--color-text);
+}
+
+:root{
+    --blue: rgb(0, 98, 255);
+    --border-header: rgba(85, 85, 85, 0.434);
+    --color-text: rgb(43, 43, 43);
+    --white-text: white;
+    --red-color: rgb(255, 79, 79);
+    --color-subtitulo: rgb(52, 52, 52);
+    --color-textNav: rgb(224, 224, 224);
+    --color-hrNav: rgba(148, 144, 144, 0.24);
+    --color-textMain: white;
+    --bg-nav: rgb(57, 57, 57);
+    --bg-main: rgba(0, 0, 0, 0.703);
+    --color-circulos: rgba(128, 128, 128, 0.358);
+    --color-boxShadow: rgba(143, 143, 143, 0.308);
+    --h2-services: rgb(43, 43, 43);
+    --bg-footer: rgb(16, 16, 16);
+
+
+    --zposition-first: 1000;
+    --zposition-second: 2000;
+    --zposition-third: 3000;
+    --zposition-fourth: 4000;
+}
+
+img{
+    display: block;
+    width: 100%;
+}
+
+button{
+    padding: 15px 40px;
+    border: none;
+    font-weight: 600;
+    background-color: var(--blue);
+    color:var(--white-text);
+    cursor: pointer;
+}
+
+.grilla{
+    width: 80%;
+    max-width: 1000px;
+    margin:auto;
+}
+
+.subtitulo{
+    font-weight: 600;
+    font-size: 1.7rem;
+    color: var(--color-subtitulo);
+}
