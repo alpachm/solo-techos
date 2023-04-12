@@ -22,7 +22,7 @@ const Gallery = () => {
   };
 
   return (
-    <section className="gallery">
+    <section id="gallery" className="gallery">
       <div className="header-gallery">
         <h2 className="subtitulo grilla">Algunos trabajos</h2>
       </div>

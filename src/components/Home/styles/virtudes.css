@@ -49,20 +49,18 @@
     font-weight: 200;
 }
 
-.virtudes div:nth-child(1) .text-div{
+.virtudes div:nth-child(1) .text-div,
+.virtudes div:nth-child(3) .text-div{
     background:linear-gradient(90deg, rgba(0, 0, 255, 0.671) 0 100%);
 }
 
-.virtudes div:nth-child(1) h3{
+.virtudes div:nth-child(1) h3,
+.virtudes div:nth-child(3) h3{
     color: white;
 }
 
 .virtudes div:nth-child(2) .text-div{
     background:linear-gradient(90deg, rgba(0, 0, 0, 0.785) 0 100%);
-}
-
-.virtudes div:nth-child(3) .text-div{
-    background: linear-gradient(90deg, rgba(27, 27, 27, 0.683) 0 100%);
 }
 
 @media(min-width:1000px){

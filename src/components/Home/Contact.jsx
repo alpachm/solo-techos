@@ -3,7 +3,7 @@ import './styles/contact.css';
 
 const Contact = () => {
   return (
-    <section className="contact">
+    <section id="contact" className="contact">
       <div className="container-contact grilla">
         <h2 className="subtitulo">Envíanos un email</h2>
 

@@ -56,6 +56,7 @@ header{
 
 .header-container > i{
     font-size: 2.5rem;
+    cursor: pointer;
 }
 
 .header-container nav{
@@ -80,7 +81,8 @@ header{
     top: 20px;
     left: 20px;
     font-size: 2.5rem;
-    color: var(--color-textNav)
+    color: var(--color-textNav);
+    cursor: pointer;
 }
 
 .header-container nav .container-nav{
@@ -106,6 +108,7 @@ header{
     font-size: 1.3rem;
     font-weight: 400;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 @media (min-width: 780px){

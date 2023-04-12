@@ -1,6 +1,7 @@
 import './styles/header.css';
 import logo from '../assets/logo.png';
 import { useState } from 'react';
+import { Link } from 'react-scroll';
 
 const Header = () => {
   const [isNav, setIsNav] = useState(false);
@@ -13,7 +14,9 @@ const Header = () => {
     <header className={`${isNav && 'isNav'}`}>
       <div className="header-container">
         <div className="logo">
-          <img src={logo} alt="solo techos bogota" />
+          <a href="#">
+            <img src={logo} alt="solo techos bogota" />
+          </a>
           <p>
             <span>Solo techos</span>
             <span>Bogotá</span>
@@ -26,13 +29,45 @@ const Header = () => {
           <div className="container-nav">
             <a href="#">Inicio</a>
             <hr />
-            <a href="#">Sobre nosotros</a>
+            <Link
+              to="aboutUs"
+              spy={true}
+              smooth={true}
+              offset={-80}
+              duration={500}
+            >
+              Sobre nosotros
+            </Link>
             <hr />
-            <a href="#">Servicios</a>
+            <Link
+              to="services"
+              spy={true}
+              smooth={true}
+              offset={-80}
+              duration={500}
+            >
+              Servicios
+            </Link>
             <hr />
-            <a href="#">Galería</a>
+            <Link
+              to="gallery"
+              spy={true}
+              smooth={true}
+              offset={-80}
+              duration={500}
+            >
+              Galería
+            </Link>
             <hr />
-            <a href="#">Contacto</a>
+            <Link
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={-80}
+              duration={500}
+            >
+              Contácto
+            </Link>
             <hr />
           </div>
         </nav>

@@ -4,7 +4,7 @@ import servicesInfo from '../../utils/services-info';
 
 const Services = () => {
   return (
-    <section className="services">
+    <section id="services" className="services">
       <div className="header-services">
         <h2 className="subtitulo">Nuestros servicios</h2>
       </div>
