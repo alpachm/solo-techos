@@ -6,7 +6,7 @@ const Testimonials = () => {
   return (
     <section className="testimonials">
       <div className="container-testimonials grilla">
-        <h2 className="subtitulo">Testimonios</h2>
+        <h2 className="subtitulo">Nuestros clientes</h2>
         <hr />
         <div className="box-testimonials">
           {testimonialsInfo.map((testimonial) => (

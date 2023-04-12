@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './styles/main.css';
 import sliderImages from '../../utils/slider-images';
+import { Link } from 'react-scroll';
 
 const Main = () => {
   const [indexImg, setIndexImg] = useState(0);
@@ -97,9 +98,8 @@ const Main = () => {
               </span>
             </h1>
             <p className={`desktop grilla ${isSpan && 'show-p-1'}`}>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur
-              harum maxime incidunt Lorem ipsum dolor sit amet. Lorem ipsum
-              dolor sit amet.
+              Nuestro gran número de clientes satisfechos respaldan la calidad
+              de nuestro trabajo.
             </p>
           </div>
 
@@ -108,13 +108,20 @@ const Main = () => {
               Más de <span>15 años de experiencia</span>
             </h1>
             <p className={`desktop grilla ${isOpacity2 && 'show-p-2'}`}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
-              rem nisi excepturi vel corporis id quae perferendis similique eos
-              reprehenderit.
+              Contamos con más de 15 años de experiencia en la industria de
+              instalación y reparación de todo tipo de techos.
             </p>
           </div>
 
-          <button>Leer más...</button>
+          <Link
+            to="aboutUs"
+            spy={true}
+            smooth={true}
+            offset={-80}
+            duration={500}
+          >
+            <button>Leer más...</button>
+          </Link>
         </div>
 
         <div className="circulos">

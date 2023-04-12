@@ -153,3 +153,9 @@ header{
         display: none;
     }
 }
+
+@media (min-width:900px){
+    .header-container .logo p{
+        width: 150px;
+    }
+}

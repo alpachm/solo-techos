@@ -42,7 +42,6 @@
 
 .box-testimonials .box footer img{
     width: 80px;
-    border-radius: 50%;
 }
 
 .box-testimonials .box footer .person-info{
@@ -55,7 +54,6 @@
 .box-testimonials .box footer .person-info p{
     color: var(--white-text);
     font-weight: 600;
-    font-style: italic;
 }
 
 .box-testimonials .box footer .person-info span{
