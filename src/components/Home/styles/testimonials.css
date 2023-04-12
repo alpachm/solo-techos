@@ -21,6 +21,8 @@
 }
 
 .box-testimonials .box{
+    max-width: 600px;
+    margin: auto;
     display: grid;
     gap:1rem;
 }
@@ -67,7 +69,7 @@
         background-image:linear-gradient(90deg, rgba(255, 0, 0, 0.626) 0 100%) ,url(../../../assets/testimonial/testimonial-bg.png);
     }
     
-    .box-testimonials{
+    /* .box-testimonials{
         grid-template-columns: 1fr 1fr;
-    }
+    } */
 }
