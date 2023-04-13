@@ -10,6 +10,14 @@ const Header = () => {
     isNav ? setIsNav(false) : setIsNav(true);
   };
 
+  const links = document.querySelectorAll('.container-nav a');
+
+  links.forEach((a) => {
+    a.addEventListener('click', function () {
+      setIsNav(false);
+    });
+  });
+
   return (
     <header className={`${isNav && 'isNav'}`}>
       <div className="header-container">

@@ -1,7 +1,7 @@
 const statsInfo = [
   {
     stat: 300,
-    message: 'Más de 700 impermeabilizaciones',
+    message: 'Más de 300 impermeabilizaciones',
   },
   {
     stat: 500,
