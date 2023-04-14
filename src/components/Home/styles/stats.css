@@ -1,6 +1,6 @@
 .stats{
     padding: 2rem 0;
-    background-image: linear-gradient(90deg, rgba(0, 0, 255, 0.612) 0 50%, rgba(0, 0, 255, 0.612) 50% 100%), url(../../../assets/stats/bg-stats.png);
+    background-image: linear-gradient(90deg,  rgba(0, 0, 255, 0.74) 0% 100%), url(../../../assets/stats/bg-stats.png);
     background-size: cover;
     background-position: center;
 }
@@ -10,13 +10,22 @@
     gap:2rem;
 }
 
+.container-stats > h2{
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.container-stats > h2 span{
+    color: rgb(255, 0, 0);
+}
+
 .container-stats .box h2{
     font-size: 2rem;
     color:white;
 }
 
 .container-stats .box h2 span{
-    color: rgb(255, 79, 79);
+    color: rgb(255, 0, 0);
 }
 
 .container-stats .box p{

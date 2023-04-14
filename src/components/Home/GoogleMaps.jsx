@@ -24,6 +24,14 @@ const GoogleMaps = () => {
           </div>
 
           <div className="box">
+            <i class="bx bx-phone-call"></i>
+            <p>
+              {' '}
+              <a href="tel: 601 6278562">313 8127333</a>{' '}
+            </p>
+          </div>
+
+          <div className="box">
             <i className="bx bxs-time-five"></i>
             <p>
               <span>Lunes/Viernes:</span> 7:30AM - 5:30PM
