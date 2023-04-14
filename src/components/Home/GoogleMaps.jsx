@@ -3,7 +3,7 @@ import RedesSociales from '../../shared/RedesSociales';
 
 const GoogleMaps = () => {
   return (
-    <section className="google-map">
+    <section id="contact" className="google-map">
       <div className="ubicacion-info grilla">
         <h2 className="subtitulo">
           Estamos ubicados en <span>Bogotá</span>
@@ -27,7 +27,7 @@ const GoogleMaps = () => {
             <i class="bx bx-phone-call"></i>
             <p>
               {' '}
-              <a href="tel: 601 6278562">313 8127333</a>{' '}
+              <a href="tel: 313 8127333">313 8127333</a>{' '}
             </p>
           </div>
 

@@ -10,6 +10,9 @@ const RedesSociales = () => {
       <a href="https://www.instagram.com/solotechosbogota" target="_blank">
         <i className="bx bxl-instagram-alt"></i>
       </a>
+      <a href="https://wa.link/ygmfqt" target="_blank">
+        <i className="bx bxl-whatsapp"></i>
+      </a>
     </section>
   );
 };
