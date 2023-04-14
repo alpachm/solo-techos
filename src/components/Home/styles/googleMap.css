@@ -1,8 +1,3 @@
-.map{
-    width: 100%;
-    height: 50vh;
-}
-
 .ubicacion-info{
     padding: 2rem 0;
 }
@@ -57,7 +52,6 @@
 .ubicacion-info main .box:nth-child(3) span{
     font-weight: 600;
 }
-
 @media(min-width:540px){
     .ubicacion-info main{
         grid-template-columns: repeat(2, 1fr);
@@ -68,10 +62,4 @@
 .ubicacion-info main{
     grid-template-columns: repeat(4, 1fr);
 }
-}
-
-@media(min-width:980px){
-    .map{
-        height: 70vh;
-    }
 }

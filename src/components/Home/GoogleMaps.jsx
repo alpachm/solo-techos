@@ -24,7 +24,7 @@ const GoogleMaps = () => {
           </div>
 
           <div className="box">
-            <i class="bx bx-phone-call"></i>
+            <i className="bx bx-phone-call"></i>
             <p>
               {' '}
               <a href="tel: 313 8127333">313 8127333</a>{' '}
