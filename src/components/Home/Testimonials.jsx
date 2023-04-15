@@ -5,7 +5,7 @@ import testimonialsInfo from '../../utils/testimonials-info';
 const Testimonials = () => {
   return (
     <section className="testimonials">
-      <div className="container-testimonials grilla">
+      <div className="container-testimonials ">
         <h2 className="subtitulo">Nuestros clientes</h2>
         <hr />
         <div className="box-testimonials">

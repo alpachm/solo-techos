@@ -1,6 +1,6 @@
-import testimonial1 from '../assets/testimonial/testimonial-1.png';
-import testimonial2 from '../assets/testimonial/testimonial-2.png';
 import ibm from '../assets/testimonial/ibm.png';
+import globalExchange from '../assets/testimonial/global-exchange.png';
+import teleamiga from '../assets/testimonial/teleamiga.png';
 
 const testimonialsInfo = [
   {
@@ -10,13 +10,20 @@ const testimonialsInfo = [
     name: 'IBM',
     cargo: 'Empresa',
   },
-  // {
-  //   image: testimonial2,
-  //   quote:
-  //     'Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis voluptates necessitatibus saepe illo qui corporis.',
-  //   name: 'Carlos Sanchez',
-  //   cargo: 'Cliente',
-  // },
+  {
+    image: globalExchange,
+    quote:
+      'Proyecto de mantenimiento donde se levanto todo el manto que se encontraba defectuoso en la cubierta para luego vulcanizarlo con manto térmico al calor. Luego se aplicó una capa de k-1000 sobre toda la placa para finalmente vulcanizar todas aquellas partes donde se presentan fisuras o dilamientos con el fin de evitar goteras o filtraicones.',
+    name: 'Global Exchange',
+    cargo: 'Empresa',
+  },
+  {
+    image: teleamiga,
+    quote:
+      'Proyecto donde se construyó estructura en perfilería metálica para recibir una cubierta en teja eternit con sus pendientes.',
+    name: 'Teleamiga',
+    cargo: 'Empresa',
+  },
 ];
 
 export default testimonialsInfo;

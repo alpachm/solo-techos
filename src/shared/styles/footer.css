@@ -59,9 +59,17 @@ footer{
     padding: 0;
 }
 
+.container-footer .box .icons-contact .box footer .prado{
+    color: rgb(88, 88, 88);
+}
+
 .container-footer .box .icons-contact .box i{
     font-size: 2rem;
     color:rgb(75, 75, 75);
+}
+
+.container-footer .box .icons-contact .box footer .phone:hover{
+    color:var(--red-color);
 }
 
 .container-footer .box .redes-sociales{

@@ -47,7 +47,7 @@ const Footer = () => {
               <i className="bx bxs-map"></i>
               <footer>
                 <p>KR 50 # 128C - 36</p>
-                <span>Prado Veraniego</span>
+                <span className="prado">Prado Veraniego</span>
               </footer>
             </div>
 
@@ -56,7 +56,21 @@ const Footer = () => {
               <footer>
                 <p>
                   {' '}
-                  <a href="tel: 601 6278562">(+601) 6278562</a>{' '}
+                  <a className="phone" href="tel: 601 6278562">
+                    (+601) 6278562
+                  </a>{' '}
+                </p>
+              </footer>
+            </div>
+
+            <div className="box">
+              <i className="bx bx-phone-call"></i>
+              <footer>
+                <p>
+                  {' '}
+                  <a className="phone" href="tel: 313 8127333">
+                    313 8127333
+                  </a>{' '}
                 </p>
               </footer>
             </div>
